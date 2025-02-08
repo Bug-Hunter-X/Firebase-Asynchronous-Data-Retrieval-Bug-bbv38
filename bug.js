@@ -1,0 +1,1 @@
+The following code snippet demonstrates a Firebase error related to data retrieval and asynchronous operations. The issue lies in how data is accessed within the callback function of `onSnapshot`.  The code attempts to access the data directly after subscribing, assuming immediate availability, which is not guaranteed because `onSnapshot` is asynchronous.
